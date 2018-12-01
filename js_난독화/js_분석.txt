@@ -1,0 +1,69 @@
+var cn = document[getelementByld("myCanvas")
+var ctx = cn[getContentext("2d")
+var br = 10
+var x= cn[width]/2
+var y= cn[height]-30 
+var dx=2
+var dy=-2
+var ph=10
+var pw=75
+var px=(cn[width]-pw)/2
+var rp=false
+var lp=false
+var a1= 5
+var a2=3 (lives?)
+var a3=75
+va a4=20
+var a5=10
+var a6=30
+var a7=30
+var a8=0
+var a9=3 
+var a10=[]
+
+e[keyCode]
+relativeX=e[clientX]-cn[offsetLetft]
+document[addEventListener]
+
+String[fromCharCode](e^57)
+
+b[status]
+f12(): 
+ctx[font]="16px arial"
+ctx[fillStyle]="#0095dd"
+ctx[fillText]
+
+f13()
+ctx[clearRect]
+
+처음 시작은 f13()
+f10() 직사각형 그리는 함수 :
+좌표 설정, 크기 설정, 색 설정
+ctx.beginPath();
+ctx.rect(brickX, brickY, 75, 20);
+ctx.fillStyle = "";
+ctx.fill();
+ctx.closePath();
+f8() 원 그리는 함수:
+ctx.beginPath();
+ctx.arc(240, 160, 20, 0, Math[PI]*2, false);
+ctx.fillStyle = "";
+ctx.fill();
+ctx.closePath();
+
+fp 밑에 받침 만들어주는 함수
+
+f11 f12 글자 
+
+f2 유니코드 문자 값을 문자열로 반환
+String.fromCharCode -> 아스키코드로 반환해줌
+인자로 받은 e와 57을 xor해서 아스키코드로 반환
+
+eval함수 : 함수 동적 실행(그냥 실행해줌)
+
+f6() ->congrate...
+범인은 f7() -> 46317023d0d55a.php -> flag
+J4V4SCR1PT_1S_2ASY_T00_CR4CK
+
+if(a8>=a1*a2){var e54=((a8==a1*a2)?"f6()":"f7()");
+a1*a2가 15인데 a8의 최고점이 15이다. 결국 a8이 15가 됬을때 if 문을 만족하고 a8과 a1*a2가 같으므로 f6()밖에 출력이 안됨(e54에 f6()문자열만 들어가게 됨). 즉, f7()문자열을 찾아서 직접 넣어주면 됨
